@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>某互联网科技公司官网</title>
+		<link rel="stylesheet" href="css/reset.css"/>
+		<link rel="stylesheet" href="css/index.css"/>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/snowflake.js"></script>
+	</head>
+	<body style="overflow-x:hidden">
+		<header id="head">
+			<div class="bg"></div>
+			<div class="headerInfo">
+				<h1 class="logo">
+					<a href="#"><img src="images/logo.png"/></a>
+					<!-- <a href="https://api.weibo.com/oauth2/authorize?client_id=3133054765&response_type=code&redirect_uri=http://www.fmall100.com" id="login">登陆</a> -->
+				</h1>
+				<nav class="navinfo">
+					<ul>
+						<li class="home"><a href="index.html">首页<span>网站首页!</span></a></li>
+						<li class="news"><a href="news.html">新闻<span>我们的信息!</span></a></li>
+						<li class="service"><a href="#">服务<span>我们能做什么?</span></a></li>
+						<li class="case"><a href="case.html">案例<span>我们做过什么?</span></a></li>
+						<li class="solution"><a href="#">解决方案<span>我们有什么?</span></a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section id="topbanner">
+			<ul class="firstUl">
+				<li style="background: url(img/banner_bg1.jpg);display: block;background-size: cover;">
+					<div class="bannerCenter">
+						<div class="bannerInfo">
+							<h2>互联网品牌传播解决方案</h2>
+							<p>成都顶级品牌网站建设公司！<br/>
+						            基于互联网的品牌行销策略的策划与执行。<br/>
+						            品牌形象挖掘、梳理、包装、表现与传播。<br/>
+						            辅助企业实现品牌战略目标的互联网解决方案。</p>
+						</div>
+						<div class="bannerImg">
+							<img src="images/1.png"/>
+						</div>
+					</div>
+				</li>
+				<li style="background-image: url(img/banner_bg2.jpg);">
+					<div class="bannerCenter">
+						<div class="bannerInfo">
+							<h2>Web应用(B/S)定制开发</h2>
+							<p>自主研发、完善的开发框架。<br/>
+							            详细的需求调研及解决方案。<br/>
+							            实施项目经验丰富的项目团队。</p>
+						</div>
+						<div class="bannerImg">
+							<img src="images/2.png"/>
+						</div>
+					</div>
+				</li>
+				<li style="background-image: url(img/banner_bg3.jpg);">
+					<div class="bannerCenter">
+						<div class="bannerInfo">
+							<h2>互联网时代的整合营销</h2>
+							<p>基于互联网的品牌营销策略的定制与执行。<br/>
+							            品牌形象挖掘、梳理、包装、表现与传播。<br/>
+							            坐拥着最为丰富的行业经验与优势资源。</p>
+						</div>
+						<div class="bannerImg">
+							<img src="images/3.png"/>
+						</div>
+					</div>
+				</li>
+				<li style="background-image: url(img/banner_bg4.jpg);">
+					<div class="bannerCenter">
+						<div class="bannerInfo">
+							<h2>您的网站全职管家</h2>
+							<p>成熟的监控与报警机制。<br/>
+							            丰富的整合营销的能力和经验。<br/>
+							            专业数据分析、开发和维护部门。</p>
+						</div>
+						<div class="bannerImg">
+							<img src="images/4.png"/>
+						</div>
+					</div>
+				</li>
+				<li style="background-image: url(img/banner_bg5.jpg);">
+					<div class="bannerCenter">
+						<div class="bannerInfo">
+							<h2>不可忽略的移动终端</h2>
+							<p>IOS系统、Android系统应用开发。<br/>
+					            App Store、Google Play 发布。<br/>
+					            APP推广服务。</p>
+						</div>
+						<div class="bannerImg">
+							<img src="images/5.png"/>
+						</div>
+					</div>
+				</li>
+				<li style="background-image: url(img/banner_bg6.jpg);">
+					<div class="bannerCenter">
+						<div class="bannerInfo">
+							<h2>全新的学术会议体验</h2>
+							<p>工作更高效，主办方更轻松。<br/>
+							            线上报名，让主办方不再为报名的事而费尽脑筋。<br/>
+							            线上投稿、审稿，为主办方提高收寄、审稿效率。<br/>
+							            酒店预订，会议行程更加轻松。</p>
+						</div>
+						<div class="bannerImg">
+							<img src="images/6.png"/>
+						</div>
+					</div>
+				</li>
+				<li style="background-image: url(img/banner_bg7.jpg);">
+					<div class="bannerCenter">
+						<div class="bannerInfo">
+							<h2>全新的学术会议体验1</h2>
+							<p>工作更高效，主办方更轻松。<br/>
+							            线上报名，让主办方不再为报名的事而费尽脑筋。<br/>
+							            线上投稿、审稿，为主办方提高收寄、审稿效率。<br/>
+							            酒店预订，会议行程更加轻松。</p>
+						</div>
+						<div class="bannerImg">
+							<img src="images/7.png"/>
+						</div>
+					</div>
+				</li>
+				<li style="background-image: url(img/banner_bg8.jpg);">
+					<div class="bannerCenter">
+						<div class="bannerInfo">
+							<h2>全新的学术会议体验2</h2>
+							<p>工作更高效，主办方更轻松。<br/>
+							            线上报名，让主办方不再为报名的事而费尽脑筋。<br/>
+							            线上投稿、审稿，为主办方提高收寄、审稿效率。<br/>
+							            酒店预订，会议行程更加轻松。</p>
+						</div>
+						<div class="bannerImg">
+							<img src="images/8.png"/>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="bannerList">
+				<div class="bjmask"></div>
+				<ul class="clear-fix secondUl">
+					<li class="firstLi"></li>
+					<li class="sUlLi">品牌网站建设</li>
+					<li class="sUlLi">品牌网站建设</li>
+					<li class="sUlLi">品牌网站建设</li>
+					<li class="sUlLi">品牌网站建设</li>
+					<li class="sUlLi">品牌网站建设</li>
+					<li class="sUlLi">品牌网站建设</li>
+					<li class="sUlLi">品牌网站建设</li>
+					<li class="sUlLi">品牌网站建设</li>
+					<li class="lastLi"></li>
+				</ul>
+				<div class="toplayer"></div>
+			</div>
+		</section>
+		<section id="content">
+			<div class="topInfo">
+				<div class="topHead">
+					<h1>案例CASES</h1>
+					<p>我们的作品，他们的故事Our work，their stories</p>
+					<a href="case.html" class="move">MORE+</a>
+				</div>
+			</div>
+			<div class="cases">
+				<ul class="casesUl">
+					<li>
+						<img src="images/c1.png" alt="" />
+						<p>
+							<strong>某某食品</strong>
+							某某食品是大型科技型上市公司某某股份重点打造的食品产业。企业网站由某某网络建设....<br />
+							<a href="caseinfo.html" class="story">查看品牌故事</a>
+							<a href="#" class="website">访问品牌网站</a>
+						</p>
+					</li>
+					<li>
+						<img src="images/c2.jpg" alt="" />
+						<p>
+							<strong>某某食品</strong>
+							某某食品是大型科技型上市公司某某股份重点打造的食品产业。企业网站由某某网络建设....<br />
+							<a href="caseinfo.html" class="story">查看品牌故事</a>
+							<a href="#" class="website">访问品牌网站</a>
+						</p>
+					</li>
+					<li>
+						<img src="images/c3.png" alt="" />
+						<p>
+							<strong>某某食品</strong>
+							某某食品是大型科技型上市公司某某股份重点打造的食品产业。企业网站由某某网络建设....<br />
+							<a href="caseinfo.html" class="story">查看品牌故事</a>
+							<a href="#" class="website">访问品牌网站</a>
+						</p>
+					</li>
+					<li>
+						<img src="images/c4.png" alt="" />
+						<p>
+							<strong>某某食品</strong>
+							某某食品是大型科技型上市公司某某股份重点打造的食品产业。企业网站由某某网络建设....<br />
+							<a href="caseinfo.html" class="story">查看品牌故事</a>
+							<a href="#" class="website">访问品牌网站</a>
+						</p>
+					</li>
+					<li>
+						<img src="images/c5.png" alt="" />
+						<p>
+							<strong>某某食品</strong>
+							某某食品是大型科技型上市公司某某股份重点打造的食品产业。企业网站由某某网络建设....<br />
+							<a href="caseinfo.html" class="story">查看品牌故事</a>
+							<a href="#" class="website">访问品牌网站</a>
+						</p>
+					</li>
+					<li>
+						<img src="images/c6.png" alt="" />
+						<p>
+							<strong>某某食品</strong>
+							某某食品是大型科技型上市公司某某股份重点打造的食品产业。企业网站由某某网络建设....<br />
+							<a href="caseinfo.html" class="story">查看品牌故事</a>
+							<a href="#" class="website">访问品牌网站</a>
+						</p>
+					</li>
+					<li>
+						<img src="images/c7.png" alt="" />
+						<p>
+							<strong>某某食品</strong>
+							某某食品是大型科技型上市公司某某股份重点打造的食品产业。企业网站由某某网络建设....<br />
+							<a href="caseinfo.html" class="story">查看品牌故事</a>
+							<a href="#" class="website">访问品牌网站</a>
+						</p>
+					</li>
+					<li>
+						<img src="images/c8.png" alt="" />
+						<p>
+							<strong>某某食品</strong>
+							某某食品是大型科技型上市公司某某股份重点打造的食品产业。企业网站由某某网络建设....<br />
+							<a href="caseinfo.html" class="story">查看品牌故事</a>
+							<a href="#" class="website">访问品牌网站</a>
+						</p>
+					</li>
+					<li>
+						<img src="images/c9.png" alt="" />
+						<p>
+							<strong>某某食品</strong>
+							某某食品是大型科技型上市公司某某股份重点打造的食品产业。企业网站由某某网络建设....<br />
+							<a href="caseinfo.html" class="story">查看品牌故事</a>
+							<a href="#" class="website">访问品牌网站</a>
+						</p>
+					</li>
+					<li>
+						<img src="images/c10.png" alt="" />
+						<p>
+							<strong>某某食品</strong>
+							某某食品是大型科技型上市公司某某股份重点打造的食品产业。企业网站由某某网络建设....<br />
+							<a href="caseinfo.html" class="story">查看品牌故事</a>
+							<a href="#" class="website">访问品牌网站</a>
+						</p>
+					</li>
+					<li>
+						<img src="images/c11.png" alt="" />
+						<p>
+							<strong>某某食品</strong>
+							某某食品是大型科技型上市公司某某股份重点打造的食品产业。企业网站由某某网络建设....<br />
+							<a href="caseinfo.html" class="story">查看品牌故事</a>
+							<a href="#" class="website">访问品牌网站</a>
+						</p>
+					</li>
+					<li>
+						<img src="images/c6.png" alt="" />
+						<p>
+							<strong>某某食品</strong>
+							某某食品是大型科技型上市公司某某股份重点打造的食品产业。企业网站由某某网络建设....<br />
+							<a href="caseinfo.html" class="story">查看品牌故事</a>
+							<a href="#" class="website">访问品牌网站</a>
+						</p>
+					</li>
+					<li>
+						<img src="images/c12.png" alt="" />
+						<p>
+							<strong>某某食品</strong>
+							某某食品是大型科技型上市公司某某股份重点打造的食品产业。企业网站由某某网络建设....<br />
+							<a href="caseinfo.html" class="story">查看品牌故事</a>
+							<a href="#" class="website">访问品牌网站</a>
+						</p>
+					</li>
+					<li>
+						<img src="images/c13.png" alt="" />
+						<p>
+							<strong>某某食品</strong>
+							某某食品是大型科技型上市公司某某股份重点打造的食品产业。企业网站由某某网络建设....<br />
+							<a href="caseinfo.html" class="story">查看品牌故事</a>
+							<a href="#" class="website">访问品牌网站</a>
+						</p>
+					</li>
+					<li>
+						<img src="images/c14.png" alt="" />
+						<p>
+							<strong>某某食品</strong>
+							某某食品是大型科技型上市公司某某股份重点打造的食品产业。企业网站由某某网络建设....<br />
+							<a href="caseinfo.html" class="story">查看品牌故事</a>
+							<a href="#" class="website">访问品牌网站</a>
+						</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section id="news">
+			<div class="topInfo">
+				<div class="topHead">
+					<h1>新闻News</h1>
+					<p>关注我们、关注前沿Recently is to do ...</p>
+					<a href="#" class="move">MORE+</a>
+				</div>
+			</div>
+			<div id="news_data">
+				<div id="news_data_left">
+					<img src="images/news.png">
+				</div>
+				<ul id="news_data_right">
+					<li>
+						<a href="javascript:;" class="news_data_right_l"><img src="images/n1.jpg"></a>
+						<div class="news_list">
+							<a href="javascript:;" class="news_list_a">网络营销最重要的一步，你做到了吗？</a>
+							<span>UPTATED:2013/11/02</span>
+							<p>很多人总是会问，为什么我的网站转化率总是居高不下？也许你的网站很美观大气，功能很完善，入口非常便捷丰富，但是就是转化不好！原因只在于，你....</p>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;" class="news_data_right_l"><img src="images/n2.jpg"></a>
+						<div class="news_list">
+							<a href="javascript:;" class="news_list_a">百度免费＂发武器＂ 布局移动互联网</a>
+							<span>UPTATED:2013/11/01</span>
+							<p>中广网北京9月3日消息 据经济之声《天下公司》报道，说起百度，恐怕听众朋友们都不会陌生。这家创办于2001年1月1日的中文互联网搜索公司，经过十余年....</p>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;" class="news_data_right_l"><img src="images/n1.jpg"></a>
+						<div class="news_list">
+							<a href="javascript:;" class="news_list_a">网络营销最重要的一步，你做到了吗？</a>
+							<span>UPTATED:2013/11/02</span>
+							<p>很多人总是会问，为什么我的网站转化率总是居高不下？也许你的网站很美观大气，功能很完善，入口非常便捷丰富，但是就是转化不好！原因只在于，你....</p>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;" class="news_data_right_l"><img src="images/n2.jpg"></a>
+						<div class="news_list">
+							<a href="javascript:;" class="news_list_a">百度免费＂发武器＂ 布局移动互联网</a>
+							<span>UPTATED:2013/11/01</span>
+							<p>中广网北京9月3日消息 据经济之声《天下公司》报道，说起百度，恐怕听众朋友们都不会陌生。这家创办于2001年1月1日的中文互联网搜索公司，经过十余年....</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<footer>
+			<div id="footerlink">
+				<nav class="wrapper">
+					<a href="javascript:;">首页</a>
+					<a href="javascript:;">关于</a>
+					<a href="javascript:;">服务</a>
+					<a href="case.html">案例</a>
+					<a href="javascript:;">方案</a>
+					<a href="javascript:;">联系</a>
+					<a href="news.html">新闻</a>
+					<a href="#" id="toTop">top</a>
+				</nav>
+			</div>
+			<div id="footerinfo">
+				<div class="wrapper">
+					<h2>联系我们
+						<strong>Contact</strong>
+					</h2>
+					<p>
+						<a target="_blank" href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=429592913&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=429592913&site=qq&menu=yes'">
+							<img src="images/qq1.png" class="callqq">
+						</a><br/>
+						<br/>电话：400 8888 8888<br/>
+							传真：400 8888 8888<br/>
+							电子邮件：admin@nicai.com<br/>
+							公司地址：北京市某某某某某某某某某<br/>
+							备案编号：京ICP备000000001<br/>
+							Copyright © 2015 - 2017 mycodes.net All rights reserved.
+					</p>
+					<img src="images/map.gif">
+				</div>
+				<div class="links">
+					<h2>友情链接
+						<strong>Links</strong>
+					</h2>
+					<ul>
+						<li><a href="javascript:;">公司名称</a></li>
+						<li><a href="javascript:;">公司名称</a></li>
+						<li><a href="javascript:;">公司名称</a></li>
+						<li><a href="javascript:;">公司名称</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<div id="maxBox"></div>
+	</body>
+</html>
