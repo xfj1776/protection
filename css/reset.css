@@ -1,0 +1,25 @@
+@charset "utf-8";
+html,body,ul,dl,dd,dt,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,img,td,div,input,a,span{margin:0;padding:0;font-family: 微软雅黑;list-style: none;text-decoration:none;}
+html{
+    height:100%;
+}
+body{
+    height:100%;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float:right;
+}
+.clear-fix:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.clear-fix{
+	zoom:1;
+}
+.no_mar{
+	margin-right: 0px;
+}
